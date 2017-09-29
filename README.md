@@ -8,6 +8,7 @@ include into page before your script:
 script is creating ```AudioPlayer``` object, and place it into ```window.audioPlayer``` property.
 #### Properties
 *``.audio``* - HTML Audio element with ```{ id:"audio-player",loop:"false" }```
+
 *``.isPlaying``* - Bolean, shows player state.
 #### Methods
 *``.setSource(<source>)``* - set path to sound-file. <source> - String, relative path to file;
