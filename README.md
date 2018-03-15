@@ -15,7 +15,7 @@ script is creating ```AudioPlayer``` object, and place it into ```window.audioPl
 
 *``.toggleLoop()``* - toggles audio element property "loop", default -> false;
 
-*``.play(null || <source>)``* - starts playback. If you need to change sounf-file, you may pass it here, like in ``.setSource()`` method.
+*``.play(null || <source>)``* - starts playback. If you need to change sound-file, you may pass it here, like in ``.setSource()`` method.
 \<source\> - String, relative path to file;
 
 *``.pause()``* - pauses playback;
